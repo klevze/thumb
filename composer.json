@@ -1,0 +1,22 @@
+{
+    "name": "klevze/thumb",
+    "description": "simple thumbnail generator for laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gregor Klevže",
+            "email": "gregor@klevze.si"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Klevze\\Thumb\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Klevze\\Thumb\\": "packages/klevze/thumb/src",
+        }
+    }
+}

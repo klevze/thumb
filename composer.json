@@ -25,10 +25,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Klevze\\Thumb\\ImageServiceProvider"
+                "Klevze\\Thumb\\ThumbServiceProvider"
             ],
             "aliases": {
-                "Image": "Klevze\\Thumb\\Facades\\Thumb"
+                "Thumb": "Klevze\\Thumb\\Facades\\Thumb"
             }
         }
     },

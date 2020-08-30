@@ -1,6 +1,8 @@
 {
     "name": "klevze/thumb",
     "description": "simple thumbnail generator for laravel",
+    "homepage": "https://github.com/klevze/thumb",
+    "keywords": ["image", "gd", "resize", "laravel", "thumbnail"],
     "license": "MIT",
     "authors": [
         {
@@ -8,15 +10,27 @@
             "email": "gregor@klevze.si"
         }
     ],
-    "require": {},
+    "require": {
+        "php": "^7.0",
+    },
+    "suggest": {
+        "ext-gd": "to use GD library based image processing.",
+        "ext-imagick": "to use Imagick based image processing.",
+    },
     "autoload": {
         "psr-4": {
             "Klevze\\Thumb\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "Klevze\\Thumb\\": "packages/klevze/thumb/src"
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Klevze\\Thumb\\ImageServiceProvider"
+            ],
+            "aliases": {
+                "Image": "Klevze\\Thumb\\Facades\\Thumb"
+            }
         }
-    }
+    },
+    "minimum-stability": "stable"
 }

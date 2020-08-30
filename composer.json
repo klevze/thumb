@@ -3,6 +3,7 @@
     "description": "simple thumbnail generator for Laravel",
     "homepage": "https://github.com/klevze/thumb",
     "keywords": ["image", "gd", "resize", "laravel", "thumbnail", "gif", "jpg", "png", "webp"],
+    "version": "0.1.3",
     "license": "MIT",
     "authors": [
         {

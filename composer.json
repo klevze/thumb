@@ -15,7 +15,7 @@
     },
     "suggest": {
         "ext-gd": "to use GD library based image processing.",
-        "ext-imagick": "to use Imagick based image processing.",
+        "ext-imagick": "to use Imagick based image processing."
     },
     "autoload": {
         "psr-4": {

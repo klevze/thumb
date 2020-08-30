@@ -16,7 +16,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Klevze\\Thumb\\": "packages/klevze/thumb/src",
+            "Klevze\\Thumb\\": "packages/klevze/thumb/src"
         }
     }
 }

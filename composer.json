@@ -1,8 +1,8 @@
 {
     "name": "klevze/thumb",
-    "description": "simple thumbnail generator for laravel",
+    "description": "simple thumbnail generator for Laravel",
     "homepage": "https://github.com/klevze/thumb",
-    "keywords": ["image", "gd", "resize", "laravel", "thumbnail"],
+    "keywords": ["image", "gd", "resize", "laravel", "thumbnail", "gif", "jpg", "png", "webp"],
     "license": "MIT",
     "authors": [
         {
@@ -11,7 +11,7 @@
         }
     ],
     "require": {
-        "php": "^7.0"
+        "php": ">=7.0.0",
     },
     "suggest": {
         "ext-gd": "to use GD library based image processing.",
